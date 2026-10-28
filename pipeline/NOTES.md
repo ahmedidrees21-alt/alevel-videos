@@ -25,3 +25,6 @@ Loudness about -15 LUFS, true peak below -0.5 dBFS. Review sample frames (use `s
 2. Create a Metricool DRAFT (draft:true) for brand blogId 7675872, networks tiktok + instagram (Reel, isAiGenerated true, tiktok isAigc true, tiktok title required), media = `https://raw.githubusercontent.com/ahmedidrees21-alt/alevel-videos/main/videos/<file>.mp4`, timezone Europe/London. Slots: video A 12:30, video B 18:00. Caption + 10 hashtags (#alevelbusiness #edexcelbusiness #alevels #businessstudies #studytok #revision #alevelrevision #ukstudent + 2 topic tags) and a CTA to comment MOCK.
 3. Never publish without approval: keep drafts.
 4. Append the day to `pipeline/progress.md`.
+
+## Cover image (important)
+The first frame is blank because text types in. Always set `videoCoverMilliseconds` on the Metricool post to a moment when the hook is fully on screen and no caption pill covers it (video A: 4000, video B: 3500; for new videos pick the time the hook text finishes typing and check that frame with render.py prev). Instagram applies it. TikTok may ignore it on personal accounts, so Ahmed may need to pick the cover in TikTok.
