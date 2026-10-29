@@ -1,0 +1,8 @@
+__pycache__/
+pipeline/day03_*/*.png
+pipeline/day03_*/*.mp4
+pipeline/day03_*/final_*.wav
+pipeline/day03_*/music.wav
+pipeline/day03_*/fx.wav
+pipeline/day03_*/voice_track.wav
+pipeline/day03_*/tl.json
